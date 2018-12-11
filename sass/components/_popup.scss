@@ -89,6 +89,11 @@
   }
 
   @include respond(tab-port) {
+
+    &__content {
+      width: 95%;
+    }
+
     &__left {
       width: 100%;
       display: none;
@@ -98,11 +103,11 @@
       width: 100%;
       display: table-cell;
       vertical-align: middle;
-      padding: 3rem 5rem;
+      padding: 2rem 2rem;
     }
 
     &__text {
-      font-size: 1.9rem;
+      font-size: 1.3rem;
       margin-bottom: 4rem;
 
       -moz-column-count: 1;
